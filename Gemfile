@@ -61,3 +61,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'shopify_app', '11.0.1' # The lastest version of shopify_app is compatible with Rails >= 5. Use version <= v7.2.8 if you need to work with Rails 4.
+
+gem 'dotenv-rails', group: [:test, :development]
